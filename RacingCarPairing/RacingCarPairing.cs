@@ -21,18 +21,17 @@ namespace RacingCarPairing
             List<string> carNames = scanValidTexts(carGroup.Controls);
             Console.WriteLine("Totally {0} teams, {1} cars.", teamNames.Count, carNames.Count);
 
-            if (teamNames.Count == 0 || carNames.Count == 0)
+            Pairing pairing = new Pairing(teamNames, carNames);
+            if (!pairing.RandomPair())
             {
-                MessageBox.Show("No valid team or car.", "warning");
+                MessageBox.Show(pairing.ErrorMessage, "warning");
                 return;
             }
-            if (teamNames.Count > carNames.Count)
+            else
             {
-                string tooLessCarMsg = carNames.Count.ToString() + " cars are not enough for " 
-                    + teamNames.Count.ToString() + " teams.\nPlease fill in more cars!";
-                MessageBox.Show(tooLessCarMsg, "warning");
-                return;
+                //TODO: pop up pair results
             }
+
         }
 
         private void cleanButton_Click(object sender, EventArgs e)
