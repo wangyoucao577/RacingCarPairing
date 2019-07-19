@@ -37,7 +37,7 @@ namespace RacingCarPairing
                 // pop up pair results
                 PairResult resultForm = new PairResult();
                 resultForm.SetPairs(pairing.Pairs);
-                resultForm.Show();
+                resultForm.ShowDialog();
 
             }
 
