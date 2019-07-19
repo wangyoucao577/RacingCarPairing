@@ -417,8 +417,7 @@
             this.pairingButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pairingButton.Name = "pairingButton";
             this.pairingButton.Size = new System.Drawing.Size(220, 66);
-            this.pairingButton.TabIndex = 0;
-            this.pairingButton.TabStop = false;
+            this.pairingButton.TabIndex = 2;
             this.pairingButton.Text = "随机配对";
             this.pairingButton.UseVisualStyleBackColor = true;
             this.pairingButton.Click += new System.EventHandler(this.pairingButton_Click);
@@ -463,7 +462,7 @@
             this.carGroup.Name = "carGroup";
             this.carGroup.Padding = new System.Windows.Forms.Padding(4);
             this.carGroup.Size = new System.Drawing.Size(463, 644);
-            this.carGroup.TabIndex = 0;
+            this.carGroup.TabIndex = 1;
             this.carGroup.TabStop = false;
             this.carGroup.Text = "赛车";
             // 
@@ -745,8 +744,7 @@
             this.cleanButton.Margin = new System.Windows.Forms.Padding(4);
             this.cleanButton.Name = "cleanButton";
             this.cleanButton.Size = new System.Drawing.Size(155, 47);
-            this.cleanButton.TabIndex = 0;
-            this.cleanButton.TabStop = false;
+            this.cleanButton.TabIndex = 3;
             this.cleanButton.Text = "清空";
             this.cleanButton.UseVisualStyleBackColor = true;
             this.cleanButton.Click += new System.EventHandler(this.cleanButton_Click);
