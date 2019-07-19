@@ -5,7 +5,7 @@ using System.Text;
 
 namespace RacingCarPairing
 {
-    class TeamCarPair
+    public class TeamCarPair
     {
         public TeamCarPair(string team, string car)
         {

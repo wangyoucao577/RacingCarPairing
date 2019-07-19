@@ -29,7 +29,16 @@ namespace RacingCarPairing
             }
             else
             {
-                //TODO: pop up pair results
+                foreach (TeamCarPair p in pairing.Pairs)
+                {
+                    Console.WriteLine("team {0} <-> car {1}", p.Team, p.Car);
+                }
+
+                // pop up pair results
+                PairResult resultForm = new PairResult();
+                resultForm.SetPairs(pairing.Pairs);
+                resultForm.Show();
+
             }
 
         }
