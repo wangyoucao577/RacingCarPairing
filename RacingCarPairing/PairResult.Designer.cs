@@ -44,7 +44,7 @@
             this.pairResultListView.Font = new System.Drawing.Font("Microsoft YaHei UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.pairResultListView.Location = new System.Drawing.Point(0, 0);
             this.pairResultListView.Name = "pairResultListView";
-            this.pairResultListView.Size = new System.Drawing.Size(527, 561);
+            this.pairResultListView.Size = new System.Drawing.Size(450, 561);
             this.pairResultListView.TabIndex = 0;
             this.pairResultListView.TabStop = false;
             this.pairResultListView.UseCompatibleStateImageBehavior = false;
@@ -54,19 +54,19 @@
             // 
             this.columnHeaderTeam.Text = "车队/车手";
             this.columnHeaderTeam.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.columnHeaderTeam.Width = 150;
+            this.columnHeaderTeam.Width = 202;
             // 
             // columnHeaderCar
             // 
             this.columnHeaderCar.Text = "赛车";
             this.columnHeaderCar.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.columnHeaderCar.Width = 150;
+            this.columnHeaderCar.Width = 225;
             // 
             // PairResult
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(527, 561);
+            this.ClientSize = new System.Drawing.Size(450, 561);
             this.Controls.Add(this.pairResultListView);
             this.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
